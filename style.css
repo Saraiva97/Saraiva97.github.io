@@ -1,0 +1,752 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.hero{
+    height: 100vh;
+    width:100% ;
+    background:black;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left:8% ;
+    padding-right:8% ;
+
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+span{
+    color: #26C6DA;
+}
+/* barra de navegaçao*/
+html{
+    scroll-behavior: smooth;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block ;
+    padding: 10px 25px ;
+}
+nav ul li a {
+    color:white ;
+    text-decoration: none;
+    font-weight: bold ;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color:#26C6DA;
+    transition:2s ;
+}
+.btn{
+    background-color:#26C6DA;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight:bold ;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform:scale(1.2) ;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left:8% ;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px;
+    font-size: 75px;
+}
+
+h2{
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 60px;
+}
+h3{
+    color:white ;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #fcfc;
+    letter-spacing:2px ;
+    font-size:20px ;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display:inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid blue;
+    outline: none;
+    border-radius:30px ;
+    
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius:30px ;
+    background-color: #26C6DA;
+    color: white;
+    box-shadow: 0px 0px 5px #000,0px 0px 15px #858585;
+    top:6px ;
+    right: 6px;
+}
+.sobre{
+    width:100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.sobre img{
+    height:auto;
+    width: 430px;
+}
+.sobre-texto{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sobre-texto h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;   
+}
+.sobre-texto h5{
+    color:white ;
+    letter-spacing:2px ;
+    font-size: 22px;
+    margin-bottom:25px ;
+    text-transform: capitalize;
+}
+
+.sobre-texto p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height:28px ;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color:#26C6DA;
+    color: white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding:13px 30px ;
+    border-radius:30px ;
+    transition: .4s;
+}
+ .but a{
+    color: white;
+    text-decoration: none;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #26C6DA;
+    cursor: pointer;
+}
+
+.projetos{
+    background:#101010;
+    width:100% ;
+    padding:10px 0px ;
+}
+
+.certificados{
+    background:#101010;
+    width:100% ;
+    padding:100px 0px ;
+}
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding:0px 0px; 
+    background-size:100%;
+    background:#191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: transform .4s;
+    display: flex;
+
+}
+
+.pra{
+    overflow: hidden;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    padding: 0;
+}
+.pra img{
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pra video {  
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.card:hover{
+    transform:scale(1.1);
+}
+/*
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #26C6DA;
+}*/
+.h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+
+    background-color:#26C6DA;
+    color: white;
+    text-decoration:none ;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding:9px 30px ;
+    border-radius:30px ;
+    transition: .4s;
+    align-items: bottom;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #26C6DA;
+    cursor: pointer;
+
+}
+
+
+.card0
+{
+    margin: 20px;
+    position:relative;
+    width: 160px;
+    height: 160px;
+    transform-style: preserve-3d;
+    cursor: pointer;
+   
+}
+.card0 .face0
+{
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: -50px;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    transition: 2s ease-in-out;
+    transform:perspective(500px) rotateY(0deg);
+}
+.card0 .face0.front0
+{   align-items: center;
+    justify-content: center;
+    background:red;
+    border:6px solid white ;
+}
+
+.card0:hover .face0.front0
+{
+    transform:perspective(500px) rotateY(180deg)
+}
+
+.card0 .face0.back0
+{
+   background:red;
+   color:white;
+   transform: perspective(500px) rotateY(180deg);
+   border: 6px solid rgb(243, 237, 237);
+   font-size: 25px;
+}
+
+.card0:hover .face0.back0
+{
+    transform:perspective(500px) rotateY(360deg);
+}
+
+/*--- card 2---*/
+
+.card2
+{
+    margin: 20px;
+    position:relative;
+    width: 160px;
+    height: 160px;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+.card2 .face2
+{
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left:-60px;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    transition: 2s ease-in-out;
+    transform:perspective(500px) rotateY(0deg);
+}
+.card2 .face2.front2
+{   align-items: center;
+    justify-content: center;
+    background:blue;
+    border:6px solid white ;
+}
+
+.card2:hover .face2.front2
+{
+    transform:perspective(500px) rotateY(180deg)
+}
+
+.card2 .face2.back2
+{
+   background:blue;
+   color:white;
+   transform: perspective(500px) rotateY(180deg);
+   border: 6px solid rgb(243, 237, 237);
+   font-size: 25px;
+}
+
+.card2:hover .face2.back2
+{
+    transform:perspective(500px) rotateY(360deg);
+}
+
+/*--- card 3---*/
+
+.card3
+{
+    margin: 20px;
+    position:relative;
+    width: 160px;
+    height: 160px;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+.card3 .face3
+{
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: -60px;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    transition: 2s ease-in-out;
+    transform:perspective(500px) rotateY(0deg);
+}
+.card3 .face3.front3
+{   align-items: center;
+    justify-content: center;
+    background:#f5f904e3;
+    border:6px solid white ;
+}
+
+.card3:hover .face3.front3
+{
+    transform:perspective(500px) rotateY(180deg)
+}
+
+.card3 .face3.back3
+{
+   background:#f5f904e3;
+   color:white;
+   transform: perspective(500px) rotateY(180deg);
+   border: 6px solid white;
+   font-size: 25px;
+}
+
+.card3:hover .face3.back3
+{
+    transform:perspective(500px) rotateY(360deg);
+}
+
+
+/*--- card 4---*/
+
+.card4
+{
+    margin: 20px;
+    position:relative;
+    width: 160px;
+    height: 160px;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    
+}
+.card4 .face4
+{
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: -60px;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    transition: 2s ease-in-out;
+    transform:perspective(500px) rotateY(0deg);
+    
+}
+.card4 .face4.front4
+{   align-items: center;
+    justify-content: center;
+    background-color: #2404a6 ;
+  
+    border:6px solid white ;
+}
+
+.card4:hover .face4.front4
+{
+    transform:perspective(500px) rotateY(180deg)
+}
+
+.card4 .face4.back4
+{
+   background:#2404a6;
+   color:white;
+   transform: perspective(500px) rotateY(180deg);
+   border: 6px solid white;
+   font-size: 25px;
+}
+
+.card4:hover .face4.back4
+{
+    transform:perspective(500px) rotateY(360deg);
+}
+
+
+
+.card5
+{
+    margin: 20px;
+    position:relative;
+    width: 160px;
+    height: 160px;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    
+}
+.card5 .face5
+{
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: -60px;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    transition: 2s ease-in-out;
+    transform:perspective(500px) rotateY(0deg);
+    
+}
+.card5 .face5.front5
+{   align-items: center;
+    justify-content: center;
+    background-color:gray ;
+    border:6px solid white ;
+}
+
+.card5:hover .face5.front5
+{
+    transform:perspective(500px) rotateY(180deg)
+}
+
+.card5 .face5.back5
+{
+   background:gray;
+   color:white;
+   transform: perspective(500px) rotateY(180deg);
+   border: 6px solid white;
+   font-size: 25px;
+}
+
+.card5:hover .face5.back5
+{
+    transform:perspective(500px) rotateY(360deg);
+}
+
+
+
+a1 {
+    width:40px ;
+    height:45px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    margin: 22px 10px;
+    color: red;
+    text-decoration: none;
+    font-size: 80px;
+}
+
+
+a2 {
+    width:35px ;
+    height:45px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    margin: 22px 10px;
+    color:blue;
+    text-decoration: none;
+    font-size: 85px;
+}
+
+a3 {
+    width:55px ;
+    height:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 70px;
+}
+
+
+a4 {
+    width:32px ;
+    height:55px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background: black;
+    margin: 22px 10px;
+    color: rgb(248, 248, 252);
+    text-decoration: none;
+    font-size: 70px;
+}
+
+
+
+h1:hover{
+    transform: scale(1.2);
+    transition: 2s ease-in-out;
+}
+span0:hover{
+    transform: scale(1.2);
+    transition:transform 2s;
+}
+
+
+.formacao{
+    background:#101010;
+    width:100% ;
+    padding:100px 0px;
+}
+
+.grad{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color:transparent ;
+    transition: transform 10s;
+    text-align: left;
+}
+.grad :hover  {
+    color: white;
+    transition: 2s ease-in-out;
+
+    -webkit-transform: translateX(100px);
+        transform: translateX(20px) .2s;
+    
+}
+
+
+.card1{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background:#191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: transform .4s;
+}
+.card1:hover{
+    transform:scale(1.1);
+}
+
+
+
+
+.contact-me{
+    width:100%;
+    height:290px ;
+    background:#191919 ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two{
+    background-color: #26C6DA;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid #26C6DA;
+    cursor: pointer;
+}
+
+
+
+.uls {
+    font-size: 40px;
+}
+
+.uls:hover{
+    color:#26C6DA;
+    transition:2s 
+}
+
+.social{
+    display: flex;
+}
+.social a{
+    width:50px ;
+    height:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #26C6DA;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.minha{
+    border-radius: 50%;
+}
+
+
+
+
+
